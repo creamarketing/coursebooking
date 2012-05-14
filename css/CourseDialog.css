@@ -1,0 +1,155 @@
+form div.field.weekday-row {
+	
+}
+
+form div.field.weekday-row input.AdvancedDropdown {
+	width: 90px;
+}
+
+form div.field.group1 input.AdvancedDropdown,
+form div.field.group4 input.AdvancedDropdown {
+	width: 80px;
+}
+
+form div.field.group5 select {
+	width: 96px;
+	margin: 0;
+}
+
+#DialogDataObjectManager_Popup_AddForm_Completed {
+	margin-left: 0px;
+}
+
+#RecDateStart label .middleColumn {
+	display: inline;
+	width: auto;
+}
+
+form div.field.group1 label,
+form div.field.group2 label, 
+form div.field.group3 label,
+form div.field.group4 label,
+form div.field.group5 label,
+form div.field.group6 label,
+form div.field.group7 label,
+form div.field.group8 label,
+form div.field.group9 label,
+form div.field.group10 #RecDateStart label {
+	width: 80px;
+	display: inline-block;
+}
+
+form div.field.group2 input.AdvancedDropdown,
+form div.field.group6 input.AdvancedDropdown {
+	width: 458px;
+}
+
+form div.field.group7 input {
+	width: 468px;
+}
+
+form div.field.group8 input {
+	width: 88px;
+}
+
+form div.field.group3 input.AdvancedDropdown,
+form div.field.group9 input.AdvancedDropdown {
+	width: 160px;
+}
+
+form div.field.group3 .fieldgroupField + .fieldgroupField > label,
+form div.field.group9 .fieldgroupField + .fieldgroupField > label {
+	min-width: 107px;
+	margin-left: 2px;
+}
+
+form div.field.type-age-edu-group input.AdvancedDropdown {
+	width: 100px;
+}
+
+form div.field.type-age-edu-group label {
+	min-width: 40px;
+	display: inline-block;
+}
+
+form div.field.subject-language-group input.AdvancedDropdown {
+	width: 180px;
+}
+
+form div.field.location-teacher-group input.AdvancedDropdown {
+	width: 100px;
+}
+
+form div.fieldgroupField ul.ui-autocomplete li.ui-menu-item span.first {
+	font-weight: bold;
+}
+
+input#DialogDataObjectManager_Popup_AddForm_CourseCode,
+input#DialogDataObjectManager_Popup_DuplicateForm_CourseCode,
+input#DialogDataObjectManager_Popup_DetailForm_CourseCode {
+	width: 88px;
+}
+
+#DialogDataObjectManager_Popup_AddForm_Summary-Name,
+#DialogDataObjectManager_Popup_AddForm_Summary-Desc,
+#DialogDataObjectManager_Popup_DuplicateForm_Summary-Name,
+#DialogDataObjectManager_Popup_DuplicateForm_Summary-Desc {
+	display: inline-block;
+}
+
+#DialogDataObjectManager_Popup_AddForm #SignupStart div.middleColumn,
+#DialogDataObjectManager_Popup_AddForm #SignupEnd div.middleColumn,
+#DialogDataObjectManager_Popup_DuplicateForm #SignupStart div.middleColumn,
+#DialogDataObjectManager_Popup_DuplicateForm #SignupEnd div.middleColumn,
+#DialogDataObjectManager_Popup_DetailForm #SignupStart div.middleColumn,
+#DialogDataObjectManager_Popup_DetailForm #SignupEnd div.middleColumn {
+	margin-bottom: 0px;
+}
+
+#DialogDataObjectManager_Popup_AddForm_DesiredLessions,
+#DialogDataObjectManager_Popup_DuplicateForm_DesiredLessions, 
+#DialogDataObjectManager_Popup_DetailForm_DesiredLessions {
+	width: 60px;
+}
+
+.right form div.weekday-selection-field.field {
+	border: 1px solid #AAA;
+	padding-left: 5px;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+form div.field.weekday-row-inner {
+	margin-top: 2px;
+}
+
+#Legend {
+	margin-right: 10px;
+	height: 70px;
+}
+	#Legend ul {
+		list-style: none;
+		float: right;
+	}
+		#Legend ul li {
+			display: block;
+			overflow: hidden;
+			margin-bottom: 2px;
+		}
+		#Legend div.legendColor {
+			width: 20px;
+			height: 20px;
+			border: 1px solid #000;
+			background: #fff;
+			float: right;
+			position: relative;
+		}
+		#Legend li label {
+			float: right;
+			margin-right: 10px;
+			line-height: 20px;
+		}

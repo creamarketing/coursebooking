@@ -1,0 +1,27 @@
+#PayedDate {
+	display: inline;
+}
+
+#PayedDate label.left {
+	display: inline;
+}
+
+#PayedDate div.middleColumn {
+	width: auto;
+	display: inline;
+}
+
+#DialogDataObjectManager_Popup_AddForm_PayedAmount,
+#DialogDataObjectManager_Popup_DetailForm_PayedAmount {
+	width: 50px;
+}
+
+#DialogDataObjectManager_Popup_AddForm_Status,
+#DialogDataObjectManager_Popup_DetailForm_Status {
+	width: 60px;
+}
+
+#DialogDataObjectManager_Popup_AddForm_BillingPostOffice,
+#DialogDataObjectManager_Popup_DetailForm_BillingPostOffice {
+	width: 120px;
+}

@@ -1,0 +1,29 @@
+#DialogDataObjectManager_Popup_DetailForm_PostAddress,
+#DialogDataObjectManager_Popup_AddForm_PostAddress {
+	width: 150px;
+}
+
+#DialogDataObjectManager_Popup_DetailForm_PostOffice,
+#DialogDataObjectManager_Popup_AddForm_PostOffice {
+	width: 100px;
+}
+
+#DialogDataObjectManager_Popup_DetailForm_Phone,
+#DialogDataObjectManager_Popup_AddForm_Phone {
+	width: 150px;
+}
+
+#DialogDataObjectManager_Popup_DetailForm_Email,
+#DialogDataObjectManager_Popup_AddForm_Email,
+#DialogDataObjectManager_Popup_DetailForm_Profession,
+#DialogDataObjectManager_Popup_AddForm_Profession, 
+#DialogDataObjectManager_Popup_DetailForm_Password,
+#DialogDataObjectManager_Popup_AddForm_Password {	
+	width: 250px;
+}
+
+
+#DialogDataObjectManager_Popup_AddForm #SendAccountInfo,
+#DialogDataObjectManager_Popup_AddForm #ResetPasswordLink {
+	display: none;
+}

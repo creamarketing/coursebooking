@@ -1,0 +1,24 @@
+.right form div.field label.left {
+	display: inline-block;
+	width: 130px;
+	font-size: 11px;
+	color: #666;	
+}
+
+.right form div.field label.left + div.middleColumn {
+	display: inline-block;
+	background-color: #fff;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: auto;
+}
+
+.right form div.field input {
+	width: auto;
+}
+
+.right form #ExportDataButton {
+	width: 160px;
+	height: 24px;
+	font-size: 12px;
+}

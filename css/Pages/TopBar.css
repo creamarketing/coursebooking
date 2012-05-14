@@ -1,0 +1,26 @@
+#topbar {
+	height: auto;
+	width: 100%;
+	border-bottom-color: #AAA;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 20px;
+	float: left;
+	padding-bottom: 5px;
+}
+
+#topbar .left {
+	float: left;
+}
+
+#topbar .right {
+	float: right;
+}
+
+#TimeLeftToConfirm {
+
+}
+
+#TimeLeftToConfirm span.timer {
+	font-weight: bold;
+}

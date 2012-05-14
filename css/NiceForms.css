@@ -1,0 +1,81 @@
+.right form .field .middleColumn {
+	background-color: transparent;
+	padding-left: 0px;
+}
+
+fieldset .middleColumn {
+	background-color: transparent;
+}
+
+.DataObjectManager-popup {
+	background-color: transparent;
+}
+
+.right form div.tab {
+	overflow: visible;
+}
+
+form div.fieldgroupField, 
+form button:nth-child(odd) {
+	margin-right: 10px;
+}
+
+div.DataObjectManager .bottom-controls .fieldgroupField {
+	margin-right: 0px;
+}
+
+div.fieldgroup.translationGroup input {
+	width: 99%;
+}
+
+.dataobject-list li.coursedate-cancelled {
+	background-color: #FFF080;
+}
+
+.dataobject-list li.coursedate-conflicting {
+	background-color: #FF8080;
+}
+
+.invalid-input-time { color: red; }
+.invalid-input-date { color: red; }
+
+/*
+form .fieldgroupField { 
+  display: inline;  
+  margin-right: 10px !important;  
+  float: left;   
+}
+
+form .fieldgroup { 
+  clear: both; 
+  float: left; 
+  width: 100%;
+}
+
+div.middleColumn { 
+  clear: both; 
+  float: left;
+  margin: 5px 0 5px 0 !important;  
+}  
+
+.right form .field {
+  width: 100%;
+}
+
+label {
+  min-width: 90px;
+}
+
+.DataObjectManager {
+  float: left;
+}
+
+.DataObjectManager-popup {
+  background-color: #fff;
+}
+
+.fieldgroup select {
+  padding: 4px 0 4px 0;
+}
+
+*/

@@ -1,0 +1,66 @@
+form div.field.group1 label,
+form div.field.group2 label,
+form div.field.group6 label {
+	width: 85px;
+	display: inline-block;
+}
+
+form div.field.group3 label,
+form div.field.group4 label, 
+form div.field.group5 label {
+	width: 110px;
+	display: inline-block;
+}
+
+form div.field.group1 input[name=BillingPostAddress] {
+	width: 130px;
+}
+
+form div.field.group1 input[name=BillingPostCode] {
+	width: 50px;
+}
+
+form div.field.group1 input[name=BillingPostOffice] {
+	width: 100px;
+}
+
+form div.field.group2 input[name=Phone] {
+	width: 130px;
+}
+
+form div.field.group2 input[name=BusinessID] {
+	width: 100px;
+}
+
+form div.field.group2 input[name=CountyNumber],
+form div.field.group6 input[name=InvoiceFee] {
+	width: 50px;
+}
+
+form div.field.group6 input {
+	width: 70px;
+}
+
+form div.field.group3 input,
+form div.field.group4 input, 
+form div.field.group5 input {
+	width: 50px;
+}
+
+form div.field.group3 input[name=PaymentDays],
+form div.field.group4 input[name=ReferenceStart],
+form div.field.group5 input[name=CancellationDays] {
+	margin-right: 55px;
+}
+form div.field.group6 input[name=PenaltyInterest] {
+	margin-right: 60px;
+}
+
+form div.field.group6 input[name=ReminderFee] {
+	margin-right: 30px;
+}
+
+
+form div.field .middleColumn input[name=LastInvoiceNumber] {
+	width: 80px;
+}

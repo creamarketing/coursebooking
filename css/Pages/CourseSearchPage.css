@@ -1,0 +1,123 @@
+#quickSearch, #detailedSearch {
+	padding-left: 5px;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	width: 48%;
+/*
+	border: 1px solid #AAA;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	*/
+}
+
+.middleColumn {
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+	float: left;
+	clear: right;
+	margin-bottom: 5px;
+}
+
+.field label {
+	float: left;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	width: 50%;
+}
+
+.field.checkbox label {
+	width: auto;
+	margin-top: 0px;	
+	margin-left: 5px;	
+}
+
+.field input {
+	float: right;
+	width: auto;
+}
+
+.field.checkbox input {
+	float: left;
+	clear: left;
+	margin-top: 2px;
+}
+
+input.action {
+	float: right;
+}
+
+#resultsTable {
+	width: 99%;
+}
+
+#resultsTable td {
+	border-width: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+#resultsTable th {
+	font-weight: bold;
+}
+
+#resultsTable tr.odd {
+	background-color: #eee;
+}
+
+#resultsTable td.full {
+	color: #FF0000;
+}
+
+#resultsTable tr.signedup {
+	background-color: #fea;
+}
+
+#resultsTable tr.desc {
+	display: none;
+}
+
+#resultsTable tr.desc.selected {
+	background-color: #efa;
+}
+
+#resultsTable tr.course.selected {
+	background-color: #efa;
+}
+
+#resultsTable tr.course.selected td {
+	font-weight: bold;	
+}
+
+#resultsTable tr.course {
+	border-top-width: 1px;
+	border-top-color: #999;
+	border-top-style: solid;	
+	cursor: pointer;
+}
+
+#resultsTable th a {
+	color: #666;
+}
+
+#resultsTable tr.pagination td {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.showallbutton {
+	margin-right: 5px;
+}
+
+tr td.arrowContainer div {
+	background: transparent url(../../images/courseDownArrow.gif);
+	width: 18px;
+	height: 13px;
+}
+
+tr.selected td.arrowContainer div {
+	background: transparent url(../../images/courseUpArrow.gif);
+	width: 18px;
+	height: 13px;
+}

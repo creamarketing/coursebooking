@@ -1,0 +1,27 @@
+#DialogDataObjectManager_Popup_DetailForm_Lessions,
+#DialogDataObjectManager_Popup_AddForm_Lessions {
+	width: 60px;
+}
+
+#DialogDataObjectManager_Popup_DetailForm .coursedate-teacher-group input.AdvancedDropdown, 
+#DialogDataObjectManager_Popup_AddForm .coursedate-teacher-group input.AdvancedDropdown{
+	width: 80px;
+}
+
+#DialogDataObjectManager_Popup_DetailForm_PaymentMonth,
+#DialogDataObjectManager_Popup_DetailForm_PaymentMonth2,
+#DialogDataObjectManager_Popup_AddForm_PaymentMonth,
+#DialogDataObjectManager_Popup_AddForm_PaymentMonth2 {
+	width: 40px;
+}
+
+.right form div.field.coursedate-teacher-group {
+	border: 1px solid #AAA;
+	padding-left: 5px;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
